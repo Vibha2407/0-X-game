@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+</head>
+<link rel="stylesheet" href="new2.css">
+
+<body>
+    <div class="winner hide">
+        <p class="msg"> winner</p>
+        <button id="start">new game</button>
+    </div>
+    <main><h1>Tic-Tac-Toe</h1>
+        <div class="container ">
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    <button id="reset">Reset</button>
+    </main>
+    
+    <script src="new2.js"></script>
+</body>
+</html>
+
+<!-- you have to implement the logic for"draw" condition
+you have to track when the game has no winner.
+in this case, print a diffrent message in the msg <p>
+
+hint use a new varriable count , which button click,
+when the total count reaches 9 but game has no winner
+that means tha game was a draw    -->
